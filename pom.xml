@@ -173,6 +173,11 @@
             <properties>
                 <skipITs>false</skipITs>
                 <quarkus.package.type>native</quarkus.package.type>
+                <quarkus.container-image.build>true</quarkus.container-image.build>
+                <quarkus.container-image.group>otojunior</quarkus.container-image.group>
+                <quarkus.container-image.tag>latest</quarkus.container-image.tag>
+                <quarkus.native.container-build>true</quarkus.native.container-build>
+                <quarkus.native.compression.level>9</quarkus.native.compression.level>
             </properties>
         </profile>
     </profiles>
